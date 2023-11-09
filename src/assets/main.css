@@ -1,0 +1,131 @@
+@import './base.css';
+
+#app {
+  display: block;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;  
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 0 20px;
+}
+nav a {
+  display: block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: hsla(160, 100%, 37%, 1);
+  border: 1px solid hsla(160, 100%, 37%, 1);
+  border-radius: 5px;
+  color: #2c3e50;
+  background: hsla(160, 100%, 37%, 1);
+  cursor: pointer;
+  transition: background-color .25s 0s ease-in, color .25s 0s ease-in;
+}
+nav a:hover, nav a.active, nav a.active:hover {
+  background: #2c3e50;
+  color: hsla(160, 100%, 37%, 1);
+}
+nav a.active {
+  color: #fff;
+}
+form {
+  display: block;
+  width: 100%;
+  margin: 0 0 50px;
+}
+form .input-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 0 10px;
+}
+form .input-box label {
+  display: block;
+  width: calc(50% - 10px);
+  margin: 0 10px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsla(160, 100%, 37%, 1);
+  text-align: left;
+}
+form .input-box input {
+  display: block;
+  width: 50%;
+  min-height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  text-align: left;
+}
+form .input-box button {
+  display: block;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 10px;
+  background: hsla(160, 100%, 37%, 1);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #2c3e50;
+  transition: background-color .25s 0s ease-in, color .25s 0s ease-in;
+  cursor: pointer;
+}
+form .input-box button:hover {
+  background: #2c3e50;
+  color: hsla(160, 100%, 37%, 1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table td, table th {
+  padding: 10px;
+  border: 1px solid hsla(160, 100%, 37%, 1);
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+table td button {
+  padding: 10px 20px;
+  background: hsla(160, 100%, 37%, 1);
+  border: 1px solid hsla(160, 100%, 37%, 1);
+  border-radius: 5px;
+  color: #2c3e50;
+  background: hsla(160, 100%, 37%, 1);
+  cursor: pointer;
+  transition: background-color .25s 0s ease-in, color .25s 0s ease-in;
+}
+table td button:hover {
+  background: #2c3e50;
+  color: hsla(160, 100%, 37%, 1);
+}
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
